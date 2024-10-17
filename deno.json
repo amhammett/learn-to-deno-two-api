@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "watch": "deno run -A --watch main.ts",
+    "sample": "curl -X POST localhost:8000/birds -d '{\"name\":\"foo bar\"}'"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  },
+  "fmt": {
+    "options": {
+      "singleQuote": true
+    }
+  }
+}
